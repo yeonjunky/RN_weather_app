@@ -7,7 +7,7 @@ export default class Loading extends React.Component {
         return (
             <View style={styles.container}>
                 <Text style={styles.text}>Getting the weather...</Text>
-                <StatusBar style='auto '/>
+                <StatusBar style='dark'/>
             </View>
         );
     }
